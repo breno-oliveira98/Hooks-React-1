@@ -58,6 +58,12 @@ function App() {
       <div class="btn-group" role="group" aria-label="Basic outlined example">
         <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseStates />)}>UseStates</button>
         <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseEffect />)}>UseEffect</button>
+        <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseRef />)}>UseRef</button>
+        <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseReducer />)}>UseReducer</button>
+        <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseContext />)}>UseContext</button>
+        <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseMemo />)}>UseMemo</button>
+        <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseCallback />)}>UseCallback</button>
+        <button className='btn btn-outline-primary' onClick={() => exibirLayout(<UseLayoutEffect />)}>UseLayoutEffect</button>
       </div>
       <div className="container text-center mt-2">
         <div className="row">

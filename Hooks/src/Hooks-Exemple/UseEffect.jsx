@@ -32,6 +32,7 @@ const UseEffect = () => {
         <>
             <div className="card " >
                 <div className="card-body">
+                    <h4 className="card-text">O useEffect é um hook do React que permite executar efeitos colaterais em componentes funcionais. Isso pode incluir operações como chamadas de API, manipulação de DOM, ou a configuração de timers. O useEffect é chamado após a renderização do componente, permitindo que você responda a mudanças no estado ou nas propriedades.</h4>
                     <ul>
                         {posts.map(post => (
                             <li key={post.id}>
